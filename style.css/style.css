@@ -98,4 +98,63 @@
     max-height: 500px;
 }
 
-/* First section  */
+/* First section end */
+
+/*  Seocnd section start */
+
+.second-section {
+    max-width: 1320px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.955), rgba(0, 0, 0, 0.342)), url('../images/Vectorrr.png');
+    background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 95px;
+}
+
+.second-section-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.second-section-content p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 48px;
+}
+
+.second-section-content button {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* second section end here */
+
+/*  Third section start here */
+
