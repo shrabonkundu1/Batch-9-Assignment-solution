@@ -196,7 +196,7 @@
     color: rgb(255, 255, 255);
     font-family: "Inter", sans-serif;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     background-color: #FF0000;
     padding: 16px 32px;
     border: none;
@@ -208,5 +208,74 @@
 
 /* Fourth section start here */
 
+.fourth-section {
+    width: 1320px;
+    height: 463px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin: 0px auto 120px;
+    gap: 70px;
+}
+
+.fourth-section-best-offer {
+    /* padding-right: 100px; */
+    margin-left: 30px;
+}
+
+.fourth-section-best-offer h6 {
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.fourth-section-best-offer h3 {
+    color: rgb(7, 2, 17);
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
 
 
+.fourth-section-best-offer p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.fourth-section-image-bar {
+    border: 18px solid white;
+    border-radius: 50%;
+    outline: 10px solid red;
+    
+}
+
+.fourth-section-new-year {
+    padding-left: 80px;
+   
+}
+
+.fourth-section-new-year h2 {
+    color: rgb(255, 0, 0);
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.fourth-section-new-year p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: "Inter", sans-serif;
+    font-size: 20;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+/* section four end here */
