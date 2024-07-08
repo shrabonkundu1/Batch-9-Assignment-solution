@@ -1,6 +1,101 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap'); */
 *{
     font-family: "Merriweather", serif;
-
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* Banner style start */
+
+.banner-container {
+    max-width: 1320px;
+    height: 600px;
+    /* border: 2px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(../images/Banner\ Image.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.banner-content {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.banner-content p {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.banner-content h1 {
+    font-size: 72px;
+    font-weight: 900;
+}
+
+/* Banner section end */
+
+/* First section start */
+
+.first-section {
+    height: 806px;
+    width: 800px;
+    margin: 120px auto;
+}
+
+.first-section-content {
+    height: 806px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.first-section-content h1 {
+    color: red;
+    font-family: "Inter", sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    line-height: 107px;
+    margin: 0 auto 49px;
+}
+
+.first-section-content p {
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    margin: 0 auto 16px;
+}
+
+.first-section-content h3 {
+    font-family: "Inter", sans-serif;
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;   
+    margin: 0 auto 47px;
+}
+
+.first-section-content img {
+    max-width: 800px;
+    max-height: 500px;
+}
+
+/* First section  */
