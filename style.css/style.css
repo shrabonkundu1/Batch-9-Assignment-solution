@@ -341,7 +341,7 @@
 
 .discount {
     position: absolute;
-    bottom: 37%;
+    bottom: 30%;
     left: 69%;
 }
 
@@ -401,7 +401,6 @@
     width: 1320px;
     height: 616px;
     margin: 120px auto 0;
-    border: 1px solid black;
     background-color: rgba(255, 0, 0, 0.05);
     display: flex;
     flex-direction: column;
@@ -420,18 +419,46 @@
 
 .seventh-container p {
     color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 22px;
 }
 
-.inputbox {
-    width: 648px;
+.input-field {
+    width: 500px;
     height: 72px;
-    border-radius: 50px;
     background: rgb(255, 255, 255);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 25px;
+    outline: none;
+    border: none;
+}
+
+.inputbox button {
+    width: 200px;
+    height: 72px;
+    background: rgb(255, 0, 0);
+    margin-left: -10px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    outline: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 
@@ -451,7 +478,9 @@ footer {
     justify-content: space-around;
     color: white;
     margin-right: 180px;
-    /* margin-left: 290px; */
+    margin-top: 80px;
+    padding-top: 100px;
+    margin-bottom: 70px;
 }
 
 .first-footer .address-bar {
@@ -462,7 +491,8 @@ footer {
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
-    margin-top: 120px;
+    padding-right: 20px;
+    /* margin-top: 100px; */
 }
 
 .first-footer .contact-bar pre {
@@ -473,7 +503,8 @@ footer {
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
-    margin-top: 120px;
+    padding-left: 30px;
+    /* margin-top: 100px; */
 }
 
 .first-footer .contact-bar p {
@@ -492,14 +523,16 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     
 }
 
 .second-footer img {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     margin-right: 18px;
+    margin-top: 40px ;
+    margin-bottom: 40px;
     /* display: flex;
     justify-content: center;
     align-items: center; */
@@ -517,6 +550,30 @@ footer {
     line-height: 29px;
     letter-spacing: 0%;
     text-align: left;
+}
+
+.third-footer p {
+    padding-left: 80px;
+}
+
+
+.third-footer h6 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-right: 50px;
+}
+.hr {
+    width: 70%;
+    color: #5b5858;
+    margin: 0 auto;
+    /* margin-top: 60px; */
+    padding: 0;
+    border: 1px solid rgba(255, 255, 255, 0.15);
 }
 /* Footer section end */
 
